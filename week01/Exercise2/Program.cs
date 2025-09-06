@@ -36,7 +36,7 @@ class Program
         // 2.1 Determine the sign grade.
         string sign = ""; // Create the sign variable
 
-        if (percent >= 60 && percent <= 97) // Only assign signs for grades D, C, B, A-
+        if (percent >= 60 && percent <= 96) // Only assign signs for grades D, C, B, A-
         {
             int lastDigit = percent % 10;
 
